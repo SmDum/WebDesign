@@ -7,5 +7,101 @@
 </head>
 <body>
     
+    <h1>Formulário</h1>
+
+    <form action="https://www.w3schools.com/action_page.php">
+
+        <label for="data">Data: </label><br>
+        <input type="date" id="data" name="data"><br>
+
+        <label for="usuario">Usuário:</label><br>
+        <input type="text" id="usuario" name="usuario"><br>
+
+        <label for="senha">Senha</label><br>
+        <input type="password" id="senha" name="senha"><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <br><hr><br>
+
+    <form action="https://www.w3schools.com/action_page.php">
+
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="usuario"><br>
+        
+        <label for="endereco">Endereço:</label><br>
+        <input type="text" id="endereco" name="endereco"><br>
+
+        <label for="numero">Número:</label><br>
+        <input type="number" id="numero" name="numero" min="0"><br>
+
+        <label for="complemento">Complemento:</label><br>
+        <input type="text" id="complemento" name="complemento"><br>
+
+        <label for="cidade">Cidade:</label><br>
+        <input list="cidade" name="cidade">
+        <datalist id="cidade">
+        <option value="Sorocaba">
+        <option value="Votorantim">
+        <option value="Salto">
+        <option value="Capela do Alto">
+        <option value="Itu">
+        </datalist><br>
+
+        <label for="estado">Estado</label><br>
+        <select id="estado" name="estado">
+            <option value="SP">SP</option>
+            <option value="RJ">RJ</option>
+            <option value="MG">MG</option>
+            <option value="RS">RS</option>
+        </select><br>
+
+        <label for="cep">CEP: </label><br>
+        <input type="text" name="cep" id="cep"><br>
+        
+        <label for="genero">Genêro:</label><br>
+
+        <input type="radio" id="masc" name="genero" value="masculino" checked>
+        <label for="masc">Masculino</label><br>
+
+        <input type="radio" id="femi" name="genero" value="feminino" >
+        <label for="femi">Femino</label><br>
+
+        <input type="radio" id="neutro" name="genero" value="neutro" >
+        <label for="neutro">Prefiro não dizer</label><br>
+
+
+        <label for="curso">Curso:</label><br>
+
+        <input type="checkbox" id="curso1" name="curso1" value="ads">
+        <label for="curso1">ADS</label><br>
+
+        <input type="checkbox" id="curso2" name="curso2" value="jogos">
+        <label for="curso2">Jogos</label><br>
+
+        <input type="checkbox" id="curso3" name="curso3" value="gestaodeti">
+        <label for="curso3">Gestão de TI</label><br>
+
+        <input type="checkbox" id="curso4" name="curso4" value="bancodedados">
+        <label for="curso4">Banco de Dados</label><br>
+
+        <label for="modelo">Modelo:</label><br>
+
+        <input type="radio" id="presencial" name="modelo" value="presencial" checked>
+        <label for="presencial">Presencial</label><br>
+
+        <input type="radio" id="EAD" name="modelo" value="EAD" >
+        <label for="EAD">EAD</label><br>
+
+        <input type="radio" id="Semi-Presencial" name="modelo" value="Semi-Presencial" >
+        <label for="Semi-Presencial">Semi-Presencial</label><br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+        
+
+        
 </body>
 </html>
