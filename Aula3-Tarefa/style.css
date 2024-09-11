@@ -23,7 +23,6 @@ ul li
 
 a:hover
 { 
-    color:#ffffff;
     background-color: #1E2126;
     border-radius: 10px;
 
@@ -98,4 +97,26 @@ img{
 p
 {
     text-align: justify;
+}
+
+.escrita
+{
+    padding: 50px 100px;
+    margin:30px;
+    border-radius: 30px;
+    background-color: #1E2126;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+.escrita p
+{
+    margin: 20px 50px;
+}
+
+iframe
+{
+    border: 2px solid white;
+    border-radius: 10px;
 }
