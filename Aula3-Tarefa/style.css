@@ -1,1 +1,101 @@
 @charset "UTF-8";
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+ul li
+{
+    text-align: justify;
+}
+
+.menu nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+a:hover
+{ 
+    color:#ffffff;
+    background-color: #1E2126;
+    border-radius: 10px;
+
+}
+
+body
+{
+        background-image: linear-gradient(#1E2126, #401519);
+}
+
+
+.menu
+{
+    text-align: center;    
+}
+
+nav
+{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.menu nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0px 100px;
+    margin:20px;
+    border-radius: 30px;
+    color: white;
+    background-color: #73141B;
+}
+
+nav ul li{
+    padding: 20px 50px;
+    margin: 10px;
+}
+
+.principal{
+    padding: 20px;
+    margin:30px;
+    border-radius: 30px;
+    background-color: #73141B;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+.img-hobbies
+{
+    display: inline-block;
+    justify-content: center;
+    margin: 10px;
+}
+
+.principal
+{
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+p
+{
+    text-align: justify;
+}
