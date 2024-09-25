@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    width: 520px;
+    height: 330px;
+    margin-top: 160px;
+}
+
+.texto h1 {
+    font-family: 'Red Rose', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #091133;
+}
+
+.texto p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6F7CB2;
+    line-height: 26px;
+    text-align: justify;
+    margin-top: 16px;
+}
+
+
+.botao {
+    display: flex;
+    margin-left: 56px;
+    margin-bottom: 270px;
+}
+
+.botao a {
+
+    padding: 10px 50px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 52px;
+}
+
+.botao .btn-1 {
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    background-color: #111B47;
+    color: #fff;
+    border: 2px solid #111B47;
+    margin-right: 15px;
+    border-radius: 2px;
+}
+
+.botao .btn-2 {
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    color: #111B47;
+    border: 2px solid #111B47;
+    margin-left: 15px;
+}
+
+.imagem img {
+    margin-top: 100px;
+    margin-left: 98px;
+}
+
+.botao a:hover {
+
+    background-color: #fff;
+    color: #111B47;
+}
+
+.botao1 {
+    margin-top: 52px;
+}
+
+.botao2 {
+    margin-top: 52px;
+}
+
+.botao2 a:hover {
+
+    background-color: #111B47;
+    color: #fff;
+
+}
