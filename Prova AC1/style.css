@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.doces img {
+    width: 302px;
+    height: 348px;
+}
+
+.btns
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btns img {
+    width: 148px;
+    height: 148px;
+}
+
+h1
+{
+    font-weight: 600;
+    font-size: 64px;
+    text-align: center;
+    line-height: 77px;
+    color: #333333;
+    width: 495px;
+    height: 154px;
+}
+
+p
+{
+    font-weight: 400;
+    font-size: 24px;
+    text-align: justify;
+    line-height: 32px;
+    color: #333333;
+    width: 487px;
+    height: 128px;
+}
+
+.doces
+{
+    display: flex;
+    flex-direction: column;
+}
