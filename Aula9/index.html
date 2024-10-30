@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    
+    <h1 id="titulo">Meu Título</h1>
+    <p id="paragrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus itaque enim totam odit adipisci, aliquam eius non, minima minus magni rerum aperiam ab suscipit! In dolores culpa et cupiditate quidem.</p>
+    <div>
+        <img src="images/cat.png" id="imagem" alt="Foto">
+
+    </div>
+
+    <div class="btns">
+        <button onclick="alterarImagem()">Alterar Imagem</button>
+        <button onclick="alterarTitulo()">Título</button>
+        <button onclick="alterarCor()">Parágrafo</button>
+        <button onclick="audio()">Áudio</button>
+        <audio src="audio/explosion.wav" id="audio"></audio>
+    </div>
+
+    <div>
+        <button id="btn1" onclick="toggleBTN()">Altera Buttons</button>
+        <button id="btn2">BTN 2</button>
+        <button id="btn3">BTN 3</button>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
