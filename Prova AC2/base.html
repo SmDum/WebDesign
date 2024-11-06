@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Cards com Cadastro</title>
+    <!-- Link do Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container my-4">
+    <h2>Cadastro de Card</h2>
+    <!-- Formulário de cadastro -->
+    <div class="form-group">
+        <label for="tituloCard">Título do Card:</label>
+        <input type="text" class="form-control" id="tituloCard" placeholder="Digite o título do card">
+    </div>
+    <button class="btn btn-primary mb-2" onclick="cadastrarCard()">Cadastrar Card</button>
+
+    
+    <button class="btn btn-danger mb-4" onclick="apagarTodos()">Apagar Todos</button>
+
+    <!-- Contêiner para os cards -->
+    <div class="row" id="cardContainer"></div>
+</div>
+
+<!-- Script do Bootstrap JS e jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
