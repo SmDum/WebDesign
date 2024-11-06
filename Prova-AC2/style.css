@@ -1,0 +1,15 @@
+.apagar-todos {
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+}
+
+#cardContainer img {
+    height: 150px;
+}
