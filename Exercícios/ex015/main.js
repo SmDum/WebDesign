@@ -5,7 +5,7 @@ function mudarCor() {
 
 function mudarImagem() {
     const img = document.getElementById("minhaImagem");
-    img.src = img.src.endsWith("images/1.webp") ? "images/2.webp" : "images/1.webp"
+    img.src = img.src.endsWith("images/1.webp") ? "images/2.webp" : "images/1.webp";
 }
 
 function mudarConteudo() {
