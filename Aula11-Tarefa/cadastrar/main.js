@@ -11,14 +11,14 @@ const id = params.get('id');
 // Modo Editar
 if (id) {
     var nome = document.querySelector('#nome');
-    var raca = document.querySelector('#raca');
+    var email = document.querySelector('#raca');
     var idade = document.querySelector('#idade');
 
     fetch(`${urlServer}${id}`)
     .then(response => response.json())
     .then(data => {
         nome.value = data.nome;
-        raca.value = data.raca;
+        email.value = data.raca;
         idade.value = data.idade;
     });
 
