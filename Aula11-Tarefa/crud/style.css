@@ -60,7 +60,7 @@ nav ul {
 }
 
 /* =================================================================================
- Lista*/
+ Lista de animais */
 .content {
     display: flex;
     flex-direction: column;
@@ -94,13 +94,13 @@ nav ul {
     background-color: #6d2121;
 }
 
-.linkAnimal {
+.linkPessoa {
     text-decoration: none;
     color: black;
     margin-left: 10px;
 }
 
-.linkAnimal:hover {
+.linkPessoa:hover {
     color: #4f4df1;
     font-weight: bold;
 }

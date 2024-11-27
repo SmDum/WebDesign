@@ -1,13 +1,11 @@
-
-
-function listaAnimais() {
+function listaCadastro() {
     let lista = document.querySelector("#lista");
     lista.innerHTML = "";
     
     fetch(urlServer)
         .then(response => response.json())
         .then(data => {
-            data.forEach(animal => {
+            data.forEach(pessoa => {
                 let li = document.createElement("li");
                 let a = document.createElement("a");
                 let button = document.createElement("button");
@@ -15,15 +13,15 @@ function listaAnimais() {
                 button.innerHTML = "Excluir";
                 button.classList.add("btn-excluir");
                 button.onclick = () => {
-                    fetch(`${urlServer}${animal.id}`, {
+                    fetch(`${urlServer}/${pessoa.id}`, {
                         method: "DELETE"
                     })
-                    .then(() => listaAnimais());
+                    .then(() => listaCadastro());
                 }   
 
-                a.innerHTML = ` ${animal.nome} (${animal.idade}) - ${animal.raca}`;
-                a.href = `cadastrar/cadastrar.html?id=${animal.id}`;
-                a.classList.add("linkAnimal");
+                a.innerHTML = ` ${pessoa.nome} (${pessoa.email}) - ${pessoa.idade}`;
+                a.href = `cadastrar/cadastrar.html?id=${pessoa.id}`;
+                a.classList.add("linkPessoa");
 
                 li.appendChild(button);
                 li.appendChild(a);
@@ -33,4 +31,4 @@ function listaAnimais() {
         })
 }
 
-listaAnimais();
+listaCadastro();
